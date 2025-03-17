@@ -1,0 +1,28 @@
+-- insert subjects
+-- depends: 20250312_01_850EW-database-setup
+INSERT INTO subject (id, name) VALUES
+(1, 'Databanken'),
+(2, 'Programmeren'),
+(3, 'Machine Learning'),
+(4, 'Projectmanagement'),
+(5, 'Soft Skills'),
+(6, 'SQL'),
+(7, 'Big Data'),
+(8, 'Hoogwerker Veiligheid'),
+(9, 'Energiebeheer'),
+(10, 'Voedselbereiding'),
+(11, 'Bakkerijtechnieken'),
+(12, 'Communicatie'),
+(13, 'Koeltechniek'),
+(14, 'Duurzame Energie'),
+(15, 'Elektriciteit'),
+(16, 'HVAC-systemen'),
+(17, 'Data Warehousing'),
+(18, 'Deep Learning'),
+(19, 'Cloud Computing'),
+(20, 'Software Engineering'),
+(21, 'Web Development'),
+(22, 'API Design'),
+(23, 'Cybersecurity'),
+(24, 'DevOps'),
+(25, 'Distributed Systems');
