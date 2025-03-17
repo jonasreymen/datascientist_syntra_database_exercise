@@ -1,0 +1,11 @@
+services:
+  database:
+    image: mysql:9.2
+    environment:
+      MYSQL_DATABASE: datascientist
+      MYSQL_USER: datascientist_user
+      MYSQL_PASSWORD: D@t@Scientist_P@ssw0rd
+    volumes:
+      - ./volumes/database:/var/lib/mysql
+    ports:
+      - '3306:3306'
