@@ -7,5 +7,5 @@ WHERE EXISTS(
 	INNER JOIN class c ON c.program_period_id = pp.id
 	INNER JOIN program_period_schedule pps ON pps.class_id = c.id
 	INNER JOIN teacher t ON t.id = pps.teacher_id
-	WHERE py.program_id = p.id AND t.`key` = "BJORNLECIS"
+	WHERE py.program_id = p.id AND t.`key` = "BJORN_LECIS"
 )

@@ -7,5 +7,5 @@ WHERE EXISTS(
 	INNER JOIN class c ON c.id = pps.class_id
 	INNER JOIN class_student cs ON cs.class_id = c.id
 	WHERE s.id = cs.student_id
-	AND t.`key` = "HANNAHGOOSSENS"
+	AND t.`key` = "HANNAH_GOOSSENS"
 )
