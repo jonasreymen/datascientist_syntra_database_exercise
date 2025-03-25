@@ -8,6 +8,9 @@ en python. Dit kan ook door verschillende docenten gegeven worden. Zorg dus voor
 docent databanken kan geven in de opleiding java en dat een andere docent diezelfde vak kan geven in de
 opleiding python. Een vak bevat het aantal uren dat een docent eraan besteed
 
+## Database schema
+![image info](./db_schema.png)
+
 ## Setup
 ### Step 1: Create and Activate Virtual Environment
 #### For Linux/macOS:
